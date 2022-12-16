@@ -25,5 +25,15 @@ p {
 	border: solid white;
 	border-radius: 50%;
 	border-width: 10px;
-	
+}
+
+.line{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	bottom: 0;
+	margin: -8px;
+	border: none;
+	border-right: solid 10px white;
+	z-index: 10;
 }
